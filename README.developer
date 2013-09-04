@@ -1,0 +1,31 @@
+
+MCSF Developer README file
+---------------------------------
+
+If you want to contribute to the MCSF reference implementation, this is
+where to start.
+
+* Directory hierarchy of the project:
+
+src/				# Source files
+src/c/				# C source files
+src/c/lib/			# C shared libraries
+src/c/lib/somename/		# C library "somename"
+src/c/bin/			# C programs
+src/c/bin/somename/		# C program "somename"
+src/c/include/mcsf/		# MCSF installed include files
+				# for APIs exposed outside the project
+src/c/include/mcsf-private/	# Private project-wide include files
+				# for internal APIs
+src/java/			# Java source files
+
+doc/				# Documentation
+doc/examples/			# Examples. Built and typically
+				# installed under
+				#   /usr/share/doc/mcsf/examples/
+
+tests/				# Tests
+tests/unit/			# Unit tests
+tests/unit/c/			# C unit tests
+tests/unit/java/		# Java unit tests
+tests/regression/		# Regression tests
