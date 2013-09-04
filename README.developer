@@ -10,9 +10,9 @@ where to start.
 src/				# Source files
 src/c/				# C source files
 src/c/lib/			# C shared libraries
-src/c/lib/somename/		# C library "somename"
+src/c/lib/test/			# C library "test"
 src/c/bin/			# C programs
-src/c/bin/somename/		# C program "somename"
+src/c/bin/test/			# C program "test"
 src/c/include/mcsf/		# MCSF installed include files
 				# for APIs exposed outside the project
 src/c/include/mcsf-private/	# Private project-wide include files
@@ -20,6 +20,7 @@ src/c/include/mcsf-private/	# Private project-wide include files
 src/java/			# Java source files
 
 doc/				# Documentation
+doc/man				# Manuals
 doc/examples/			# Examples. Built and typically
 				# installed under
 				#   /usr/share/doc/mcsf/examples/
